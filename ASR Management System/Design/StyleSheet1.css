@@ -1,0 +1,246 @@
+﻿
+body {
+    font: bold 16px arial, verdana;
+    background-color: gainsboro;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+
+
+#FullPgContainerDiv {
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: greenyellow;
+    position:relative;
+}
+
+.SubmitBtn {
+    font-size:20px;
+    font-weight:bold;
+    height:60px;
+    width:190px;
+    white-space:normal;
+    border-radius: 15px;
+    border-width:3px;
+    border-color:aliceblue;
+}
+
+.SubmitDropdown {
+    width: 50px;
+    font-size:10px;
+    height:20px;
+}
+
+#NameGridView {
+    border-width:1px;
+    border-style:solid;
+    border-color:blueviolet;
+    height:70px;
+    overflow:auto;
+    margin:auto;
+    display:inline-block;
+}
+
+
+.BigButton {
+    font-size: 20px;
+    font-weight: bold;
+    white-space: normal;
+    height: 100px;
+    width: 140px;
+    border-width: 3px;
+    border-color: aqua;
+    background-color: honeydew;
+    border-radius: 15px / 50px;
+}
+
+    .BigButton:hover {
+        background-color: darkblue;
+        color: azure;
+    }
+
+.MediumButton {
+    font-size: 20px;
+    font-weight:bold;
+    white-space: normal;
+    height: 50px;
+    width: 300px;
+    border-width: 2px;
+    border-color: blueviolet;
+    background-color: burlywood;
+    border-radius: 20px;
+    position:absolute;
+    margin-top: 70px;
+}
+
+    /*left button*/
+    .ButtonLeft {
+        right: 15px;
+        bottom: 100px;
+    }
+
+    /*right button*/
+    .ButtonRight{
+        right: 15px;
+    }
+
+    .MediumButton:hover {
+        background-color: honeydew;
+        color: black;
+    }
+
+.SelectionPanel {
+    height: 150px;
+    width: 615px;
+    position:absolute;
+    left:30px;
+    top:30px;
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    position:relative;
+}
+
+.SelectionDiv {
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    left:20px;
+}
+
+.Dropdown {
+    height: 30px;
+    width: inherit;
+    font-size:20px;
+    display:inline-block;
+    float:right;
+    padding-left:10px;
+}
+
+.DropdownLabel {
+    font-size: 20px;
+    height: 30px;
+    width: inherit;
+    padding-top:5px;
+    background-color: azure;
+    display: inline-block;
+    float:left;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.NumSubmissionsField {
+    position:absolute;
+    left:20px;
+    bottom:30px;
+    font-size:20px;
+    display: inline-block;
+    height: 50px;
+    width: 70px;
+    text-wrap: avoid;
+}
+
+.NumSubmissionsFieldHeader {
+    width: 400px;
+}
+
+.FormPanel {
+    margin: auto;
+    height: 300px;
+    width: 700px;
+    background-color: beige;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: azure;
+    border-radius: 20px;
+}
+
+.SubmissionDetailsLabel {
+    position:absolute;
+    top:280px;
+    right:150px;
+    font-size:30px;
+    color:darkslategrey;
+    width:300px;
+    background-color:aquamarine;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.LeftGridViewContainer {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 600px;
+    height: 250px;
+    overflow: auto;
+    resize: both;
+    white-space:normal;
+}
+
+.RightGridViewContainer {
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    width: 60%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkcyan;
+    background-color:gainsboro;
+}
+
+.GridViewsRight {
+    position:relative;
+    left:0px;
+    width: 100%;
+    white-space:normal;
+}
+
+.GridViewsLeft {
+    width:95%;
+    float:right;
+}
+
+
+/*following 4 classes used in Statistics.aspx*/
+
+.OuterContainer {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height:550px;
+}
+
+.PositionTopLeft {
+    position:absolute;
+    left:10px;
+    top:15px;
+    width:400px;
+    white-space:normal;
+}
+
+.PositionBottomLeft {
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    width: 400px;
+    white-space:normal;
+}
+
+.PositionTopRight {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    white-space: normal;
+    width: 450px;
+    height: 470px;
+    overflow: auto;
+}
+

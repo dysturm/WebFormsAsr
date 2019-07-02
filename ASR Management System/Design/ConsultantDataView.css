@@ -1,0 +1,157 @@
+﻿
+
+.LinkButtonStyle { 
+    font-size:20px;
+    color:orangered;
+}
+
+.addConsultantBtn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+
+
+/*view1*/
+
+.selectLabel {
+    font-size: 30px;
+    color:azure;
+    text-decoration:underline;
+    text-decoration-color:aquamarine;
+}
+
+#buttonRepeaterContainer {
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+}
+
+#consultantBtnContainer {
+    margin: 20px;
+    height: 130px;
+    width: 250px;
+    background-color: whitesmoke;
+    white-space: normal;
+    position:relative;
+    float: left;
+    /*border-width: 3px;
+    border-color: purple;
+    border-style: solid;
+    border-top-width: 0px;*/
+}
+
+.NameButton {
+    height: 80px;
+    width: 250px;
+    background-color: blueviolet;
+    color: ghostwhite;
+    font-size: 30px;
+    white-space: normal;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+    .NameButton:hover {
+        background-color: cyan;
+        color: blue;
+    }
+
+.AlternatingStyle {
+    background-color:orange;
+}
+
+.ConsultantDetailsLabelCSS {
+    font-size:20px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+
+/*view2*/
+
+.BackBtnCss {
+    position:absolute;
+    top:5px;
+    left:10px;
+}
+
+.NameLabel {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-size: 75px;
+}
+
+.deleteBtn {
+    color: red;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: dimgray;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+    .deleteBtn:hover {
+        color: azure;
+        background-color: blueviolet;
+    }
+
+
+    /*  accordion  */
+
+#accordionContainer {
+    width: 800px;
+    height: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.headerCssClass {
+    margin: auto;
+    height: 30px;
+    width: 700px;
+    background-color: mediumaquamarine;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+.headerCssClass:hover {
+    background-color: floralwhite;
+    color: brown;
+}
+
+.headerSelectedCssClass {
+    margin: auto;
+    height: 30px;
+    width: 700px;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+.contentCssClass {
+    margin:auto;
+    height: 500px;
+    width: 700px;
+    background-color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkolivegreen;
+    text-align:left;
+    font-size:20px;
+}
+
+

@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ASR_Management_System.Site1" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="Design/StyleSheet1.css" rel="stylesheet" />
+    <link href="Design/Header.css" rel="stylesheet" />
+    <link href="Design/ButtonStyles.css" rel="stylesheet" />
+    <link href="Design/ConsultantDataView.css" rel="stylesheet" />
+    <link href="Design/HomePageCss.css" rel="stylesheet" />
+    <title>ASR Management System</title>
+
+    <%-- script prevents form resubmit on page refresh --%>
+    <script>
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" method="post">
+
+        <div class="MenuDiv">
+
+            <h2>AMERICAN SOFTWARE RESOURCES</h2>
+
+            <asp:Menu ID="Menu1" runat="server" BackColor="#00CCFF" StaticDisplayLevels="2" DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="1.0em" ForeColor="White" StaticSubMenuIndent="10px" Orientation="Horizontal" BorderColor="#6699FF" BorderStyle="Solid" BorderWidth="2px" CssClass="Menu">
+                <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" CssClass="MenuItem" />
+                <DynamicMenuItemStyle VerticalPadding="5px" CssClass="MenuItem" BackColor="#0099FF" ForeColor="#FFFFCC" />
+                <DynamicMenuStyle BackColor="#F7F6F3" CssClass="MenuItem" />
+                <DynamicSelectedStyle BackColor="#5D7B9D" ForeColor="#FFFFCC" />
+                <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                <StaticMenuItemStyle VerticalPadding="5px" CssClass="MenuItem" />
+                <StaticSelectedStyle BackColor="#5D7B9D" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+
+
+
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+
+
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" RenderCurrentNodeAsLink="true" SkipLinkText="" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : " CssClass="SiteMapPath">
+                <CurrentNodeStyle ForeColor="Green" />
+                <NodeStyle Font-Bold="True" ForeColor="Purple" />
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                <RootNodeStyle Font-Bold="True" ForeColor="#5D7B9D" />
+            </asp:SiteMapPath>
+
+            <asp:Panel runat="server" CssClass="panelLoginStatus">
+                <asp:Label ID="lblUsername" runat="server" Text="No User"></asp:Label>
+                <asp:LinkButton ID="lnkbtnLogout" runat="server" OnClick="lnkbtnLogout_OnClick">Logout</asp:LinkButton>
+            </asp:Panel>
+
+        </div>
+
+        <div id="pg_bottom_container">
+
+            <%-------sidebar--------%>
+
+            <div id="sideBtns_Container">
+                <asp:Button ID="BtnAddConsultant" runat="server" Text="Add New Consultant +" PostBackUrl="~/Pages/Update Records Pgs/AddConsultant.aspx" CssClass="homePageBtn button1" />
+                <asp:Button ID="Btn_AddRecruiter" runat="server" Text="Add New Recruiter +" PostBackUrl="~/Pages/Update Records Pgs/AddRecruiter.aspx" CssClass="homePageBtn button2" />
+            </div>
+
+
+            <div id="contentDiv">
+
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>

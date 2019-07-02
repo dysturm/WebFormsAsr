@@ -1,0 +1,42 @@
+﻿.clientPanel {
+    margin: auto;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    width: 60%;
+    max-height: 60%;
+    overflow-y: auto;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.lblClientHeader {
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lblClientTableHeader {
+    position: absolute;
+    top: 11%;
+    left: 20%;
+    background-color: lightblue;
+    font-size: 12px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lnkbtnBack {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    padding: 8px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}

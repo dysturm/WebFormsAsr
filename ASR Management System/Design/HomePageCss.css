@@ -1,0 +1,115 @@
+﻿#sideBtns_Container {
+    height: 800px;
+    width: 200px;
+    background-color: dimgray;
+    border-width: 3px;
+    border-left-width:5px;
+    border-bottom-width:5px;
+    border-style: solid;
+    border-color: aqua;
+    position: absolute;
+    left: 0px;
+}
+
+#topBtns_Container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: darkslategrey;
+    border-bottom: 3px solid aqua;
+}
+
+.displayLabel {
+    position:absolute;
+    right:50px;
+    z-index:5;
+}
+
+#button_div {
+    width: 400px;
+    height: 60px;
+    position: relative;
+    top:20px;
+    left:100px;
+    border:2px solid aqua;
+    border-radius:5px;
+}
+
+#Panels_Container {
+    width: 600px;
+    height: 550px;
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: brown;*/
+    position: absolute;
+    text-align: left;
+    overflow-y: auto;
+    top: 60px;
+    left: 5px;
+}
+
+#collapsiblePanel_container {
+    position:absolute;
+    top:120px;
+    left:100px;
+    height:450px;
+    width:400px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.CollapsiblePanelCss {
+    width: 100%;
+    overflow-x:hidden;
+}
+
+.Btn_Style {
+    position: absolute;
+    /*margin: auto;*/
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    z-index:3;
+}
+
+.Btn_Style_Consultant {
+    background-color: cornflowerblue;
+    color: aqua;
+    left:0px;
+}
+
+.Btn_Style_Recruiter {
+    background-color: forestgreen;
+    color: greenyellow;
+    right:0px;
+}
+
+.Btn_ConsultantName {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    background-color: cadetblue;
+    color: aqua;
+}
+
+    .Btn_ConsultantName:hover {
+        background-color: aqua;
+        color: cadetblue;
+    }
+
+.Btn_RecruiterName {
+    width: 100%;
+    height: 40px;
+    font-size: 19px;
+    text-align: left;
+    background-color: darkgray;
+    color: azure;
+}
+
+    .Btn_RecruiterName:hover {
+        background-color: azure;
+        color: darkgray;
+    }

@@ -1,0 +1,38 @@
+﻿.lbl_title {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 26px;
+    margin: auto;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.btn_navigate {
+    border-radius: 30px;
+    border: 1px solid black;
+    position: absolute;
+    top: 200px;
+    font-size: 30px;
+}
+    .btn_navigate:hover {
+        background-color: gainsboro;
+        border-color: whitesmoke;
+        cursor: pointer;
+        font-size: 32px;
+    }
+
+    .btn_navigate_left {
+        left: 3%;
+    }
+.btn_navigate_right {
+    right: 3%;
+}
+
+.panel_gv {
+    margin: auto;
+    margin-top: 50px;
+    width: max-content;
+    max-height: 500px;
+    overflow-y: auto;
+}

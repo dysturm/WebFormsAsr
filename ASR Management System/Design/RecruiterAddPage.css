@@ -1,0 +1,18 @@
+﻿.recruiterPanel {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: lightblue;
+    border-radius: 20px;
+    border: 3px solid gray;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.errorMessage {
+    color: red;
+}

@@ -1,0 +1,27 @@
+﻿body {
+    background-color: gainsboro;
+}
+
+.tb {
+    width: 75%;
+    height: 30px;
+    font-size: 18px;
+}
+
+.label {
+    display: block;
+    font-size: 24px;
+}
+
+.panelLogin {
+    border: 5px solid blue;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    height: 250px;
+    background-color: lightblue;
+    position: relative;
+    top: 200px;
+    left: 35%;
+}

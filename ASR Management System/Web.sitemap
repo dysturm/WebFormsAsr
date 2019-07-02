@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home" description="Home" url="~/Pages/Home.aspx" >
+
+
+
+    <siteMapNode title="Consultants" description="View Consultants"
+              url="~/Pages/SelectConsultant.aspx"/>
+
+
+
+    <siteMapNode title="Clients" description="View Client Submissions"
+             url="~/Pages/Clients.aspx"/>
+
+
+
+    <siteMapNode title="Update Records" description="Update Records"
+             url="~/Pages/UpdateRecords.aspx">
+      <siteMapNode title="Add Consultant"
+            description="Add New Consultant"
+             url="~/Pages/Update Records Pgs/AddConsultant.aspx" />
+      <siteMapNode title="Add Recruiter"
+            description="Add New Recruiter"
+             url="~/Pages/Update Records Pgs/AddRecruiter.aspx" />
+      <siteMapNode title="Manage Tables"
+            description="Alter Existing Tables - Restricted Access"
+             url="~/Pages/Update Records Pgs/ManageTables.aspx" />
+      <siteMapNode title="Manage Users"
+                   description="Manage Users - Restricted Access"
+                   url="~/Pages/Update Records Pgs/ManageUsers.aspx" />
+      <siteMapNode title="Confirm Deletions"
+                   description="Confirm User Deletions - Restricted Access"
+                   url="~/Pages/Update Records Pgs/ConfirmDeletions.aspx" />
+      <siteMapNode title="Statistics" description="View Statistics"
+             url="~/Pages/Statistics.aspx">
+      </siteMapNode>
+    </siteMapNode>
+
+
+
+  </siteMapNode>
+
+</siteMap>

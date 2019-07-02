@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Web;
+
+namespace ASR_Management_System.App_Code
+{
+    public static class Encryptor
+    {
+        public static string Encrypt(string user, string pass)
+        {
+            string encryptedKey = "";
+
+            //foreach (var letter in user)
+            //{
+            //    encryptedKey += (char.GetNumericValue(letter) + 20) % 7;
+            //}
+
+            //foreach (var letter in pass)
+            //{
+            //    encryptedKey += (char.GetNumericValue(letter) + 20) % 9;
+            //}
+
+            encryptedKey = user + pass;
+
+            encryptedKey = Crypt(encryptedKey);
+
+            return encryptedKey;
+        }
+
+        private static byte[] key = new byte[8] { 1, 2, 3, 4, 5, 6, 7, 8 };
+        private static byte[] iv = new byte[8] { 1, 2, 3, 4, 5, 6, 7, 8 };
+
+        public static string Crypt(this string text)
+        {
+            SymmetricAlgorithm algorithm = DES.Create();
+            ICryptoTransform transform = algorithm.CreateEncryptor(key, iv);
+            byte[] inputbuffer = Encoding.Unicode.GetBytes(text);
+            byte[] outputBuffer = transform.TransformFinalBlock(inputbuffer, 0, inputbuffer.Length);
+            return Convert.ToBase64String(outputBuffer);
+        }
+
+        public static string Decrypt(this string text)
+        {
+            SymmetricAlgorithm algorithm = DES.Create();
+            ICryptoTransform transform = algorithm.CreateDecryptor(key, iv);
+            byte[] inputbuffer = Convert.FromBase64String(text);
+            byte[] outputBuffer = transform.TransformFinalBlock(inputbuffer, 0, inputbuffer.Length);
+            return Encoding.Unicode.GetString(outputBuffer);
+        }
+
+
+
+    }
+}
+

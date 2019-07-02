@@ -1,0 +1,98 @@
+﻿#title1 {
+    color: green;
+    background-color: gainsboro;
+    font-size: x-large
+}
+
+
+h2 {
+    background-color: aqua;
+    color: azure;
+    width: 155px;
+    /*height:100px;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    white-space: normal;
+}
+
+.MenuDiv {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    height: 100px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: azure;
+}
+
+.Menu {
+    position: absolute;
+    left: 300px;
+}
+
+.MenuItem {
+    width: 200px;
+    text-align: center;
+}
+
+.SiteMapPath {
+    position: absolute;
+    top: 50px;
+}
+
+.SearchBoxDiv {
+    position:absolute;
+    bottom:10px;
+    font-style:italic;
+    color:cadetblue;
+}
+
+    #divSearchConsultant {
+        left:200px;
+    }
+
+    #divSearchRecruiter {
+        left:650px;
+    }
+
+.SearchBtn {
+    width: 30px;
+    background-color:darkslateblue;
+    color:ghostwhite;
+}
+
+    .SearchBtn:hover {
+        background-color:floralwhite;
+        color:dodgerblue;
+    }
+
+#pg_bottom_container {
+    width: 1205px;
+    margin: auto;
+    position: relative;
+}
+
+#contentDiv {
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-width: 3px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: darkslategray;
+}
+
+/*login status box*/
+.panelLoginStatus {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 18px;
+
+}

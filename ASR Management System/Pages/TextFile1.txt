@@ -1,0 +1,667 @@
+﻿
+
+
+
+************** entity ms access nuget command ********************************
+Scaffold-DbContext -Connection "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\joshh\OneDrive\Documents\Database2.accdb;" -Provider EntityFrameworkCore.Jet -OutputDir Models -Force
+
+
+
+
+
+<%--                <%--div container to hold cntrol btn + INTERVIEWS panel--%>
+                <div id="Pending_Interviews_Panel_Container">
+
+                    <%--collapse control button for pending INTERVIEWS panel--%>
+                    <asp:Button ID="Pending_Interviews_Panel_CollapseBtn" runat="server" Text="View Pending Interviews" CssClass="Collapsible_Panel_Button_Toggle" />
+                    <br />
+
+                    <%--panel for pending INTERVIEWS details--%>
+                    <asp:Panel ID="Pending_Interviews_Panel" runat="server" CssClass="Pending_Interviews_Panel">
+                        <asp:Repeater ID="Pending_Interviews_Repeater" runat="server" DataSourceID="Pending_Interviews_DS">
+                            <ItemTemplate>
+                                <asp:LinkButton ID="LinkButton_Interview_Row" CssClass="submission_row_linkbutton" runat="server">
+                                    Interview with <span style="color: red;"><%# Eval("Client_Name") %></span> on <span style="color: blue"><%# Eval("Date_Scheduled", "{0:d}") %></span> via <span style="color: forestgreen"><%# Eval("Method") %></span>
+                                </asp:LinkButton>
+                                <hr />
+
+                                <%--modal POPUP extender for VIEWING interviews--%>
+                                <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_View_Interview" runat="server"
+                                    TargetControlID="LinkButton_Interview_Row"
+                                    PopupControlID="popupMenu_View_Interview"
+                                    BackgroundCssClass="modalBackground"
+                                    DropShadow="true"
+                                    CancelControlID="Cancel_Btn_Interview">
+                                </ajaxToolkit:ModalPopupExtender>
+
+                                <%--modal POPUP extender for EDITING interviews--%>
+                                <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_Edit_Interview" runat="server"
+                                    TargetControlID="Button_Edit_Interview"
+                                    PopupControlID="popupMenu_Edit_Interview"
+                                    BackgroundCssClass="modalBackground"
+                                    DropShadow="true"
+                                    CancelControlID="CancelButton_Interview_Edit">
+                                </ajaxToolkit:ModalPopupExtender>
+
+                                <%--popup menu for VIEWING interview--%>
+                                <asp:Panel ID="popupMenu_View_Interview" CssClass="popupMenu_View_Submissions" runat="server">
+
+                                    <asp:Label ID="Label_Title_View_Interview" runat="server" Text="View Interview" CssClass="label_title"></asp:Label>
+                                    <asp:Button ID="Cancel_Btn_Interview" runat="server" Text="X" CssClass="cancel_btn" />
+                                    <asp:Button ID="Button_Delete_Interview" runat="server" Text="Delete Interview" CssClass="delete_Btn" />
+                                    <asp:Button ID="Button_Edit_Interview" runat="server" Text="Edit" CssClass="btn_edit_submission" />
+
+
+                                </asp:Panel>
+
+                                <%--popup menu for EDITING interview--%>
+                                <asp:Panel ID="popupMenu_Edit_Interview" CssClass="popupMenu_View_Submissions" runat="server">
+
+                                    <asp:Label ID="Label_Edit_Interview" runat="server" Text="Edit Interview" CssClass="label_title"></asp:Label>
+                                    <asp:Button ID="CancelButton_Interview_Edit" runat="server" Text="X" CssClass="cancel_btn" />
+                                    <asp:Button ID="Button_Update_Interview" runat="server" Text="Update Interview" CssClass="Btn_Command" />
+
+                                </asp:Panel>
+
+
+
+
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </asp:Panel>
+
+                </div>
+                <%--end INTERVIEWS div--%>
+
+                <%--collapse extender for pending INTERVIEWS panel--%>
+                <ajaxToolkit:CollapsiblePanelExtender ID="CollapsiblePanelExtender2" runat="server"
+                    TargetControlID="Pending_Interviews_Panel"
+                    CollapseControlID="Pending_Interviews_Panel_CollapseBtn"
+                    ExpandControlID="Pending_Interviews_Panel_CollapseBtn"
+                    AutoCollapse="false" />--%>
+
+
+*************************************************************************************************
+
+****************************************master pg search boxes***************************************
+
+            <div id="divSearchConsultant" class="SearchBoxDiv">
+                <asp:Label ID="SearchLabelConsultant" runat="server" Text="Search Consultant: "></asp:Label>
+                <ajaxToolkit:ComboBox ID="ComboBoxConsultants" runat="server" AutoCompleteMode="Append" DataSourceID="ComboBoxConsultantsDS" DataTextField="Consultant_Name" DataValueField="Consultant_Name" MaxLength="0" style="display: inline;"></ajaxToolkit:ComboBox>
+                <asp:SqlDataSource ID="ComboBoxConsultantsDS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT  IIF(ISNULL([FirstName]), [LastName], ([FirstName]+' '+[LastName]))  AS [Consultant_Name] FROM [Consultants]"></asp:SqlDataSource>
+                <asp:Button ID="SearchConsultantBtn" CssClass="SearchBtn" runat="server" Text="Go" PostBackUrl="~/Pages/Consultants.aspx" />
+            </div>
+
+            <div id="divSearchRecruiter" class="SearchBoxDiv">
+                <asp:Label ID="SearchLabelRecruiter" runat="server" Text="Search Recruiter: "></asp:Label>
+                <ajaxToolkit:ComboBox ID="ComboBoxRecruiters" runat="server" AutoCompleteMode="Append" DataSourceID="ComboBoxRecruitersDS" DataTextField="Recruiter_Name" DataValueField="Recruiter_Name" MaxLength="0" style="display: inline;">
+                    
+                </ajaxToolkit:ComboBox>
+                <asp:SqlDataSource ID="ComboBoxRecruitersDS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [Recruiter Name] AS Recruiter_Name FROM [ASR-RECRUITERS]"></asp:SqlDataSource>
+                <asp:Button ID="SearchRecruiterBtn" CssClass="SearchBtn" runat="server" Text="Go" />
+            </div>
+
+
+
+
+
+placeholder = 111 - popup panel of viewing gridview of all submissions
+
+
+    <%--modal popop extender for viewing ALL submissions--%>
+    <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_View_Submissions" runat="server"
+        TargetControlID="Button_View_All_Submissions"
+        PopupControlID="popupMenu_View_All_Submissions"
+        BackgroundCssClass="modalBackground"
+        DropShadow="true"
+        CancelControlID="Cancel_Btn_2">
+    </ajaxToolkit:ModalPopupExtender>
+
+
+
+
+
+    <%-- resize extender for ALL submissions popup --%>
+    <ajaxToolkit:ResizableControlExtender ID="ResizableControlExtender_View_All_Submissions_Popup" runat="server"
+        TargetControlID="popupMenu_View_All_Submissions"
+        HandleCssClass="resize_handle_css"
+        ResizableCssClass="resize_css"
+        MinimumWidth="1000"
+        MinimumHeight="500"
+        MaximumWidth="1500"
+        MaximumHeight="1000" />
+
+
+    <%--popup panel to view ALL submissions--%>
+    <asp:Panel ID="popupMenu_View_All_Submissions" CssClass="popupMenu_View_All_Submissions" runat="server">
+
+
+        <asp:Label ID="Label_Title_View_All" runat="server" Text="View All Submissions" CssClass="label_title"></asp:Label>
+        <asp:Button ID="Cancel_Btn_2" runat="server" Text="X" CssClass="cancel_btn" />
+
+
+        <%--container to hold gridview of all submissions--%>
+        <div id="gridview_container">
+
+            <%--gridview to see all submissions--%>
+            <asp:GridView ID="GridView_All_Submissions" runat="server" AllowSorting="True" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource_All_Submits" ForeColor="#333333" GridLines="None">
+                <AlternatingRowStyle BackColor="White" />
+                <Columns>
+                    <asp:BoundField DataField="SLNO" HeaderText="SLNO" SortExpression="SLNO" />
+                    <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="Date" DataFormatString="{0:d}" HtmlEncode="false" />
+                    <asp:BoundField DataField="JOB_TITLE" HeaderText="JOB_TITLE" SortExpression="JOB_TITLE" />
+                    <asp:BoundField DataField="CITY" HeaderText="CITY" SortExpression="CITY" />
+                    <asp:BoundField DataField="STATE" HeaderText="STATE" SortExpression="STATE" />
+                    <asp:BoundField DataField="Duration" HeaderText="Duration" SortExpression="Duration" />
+                    <asp:BoundField DataField="RATE_PER_HOUR" HeaderText="RATE" SortExpression="RATE_PER_HOUR" />
+                    <asp:BoundField DataField="METHOD" HeaderText="METHOD" SortExpression="METHOD" />
+                    <asp:BoundField DataField="CLIENT_SUBMISSION" HeaderText="SUBMISSION" SortExpression="CLIENT_SUBMISSION" />
+                    <asp:BoundField DataField="REMARKS" HeaderText="REMARKS" SortExpression="REMARKS" />
+                    <asp:BoundField DataField="column1" HeaderText="Recruiter" SortExpression="column1" />
+                    <asp:BoundField DataField="VENDOR_COMPANY_NAME" HeaderText="VENDOR" SortExpression="VENDOR_COMPANY_NAME" />
+                    <asp:BoundField DataField="column2" HeaderText="Vendor Contact" SortExpression="column2" />
+                    <asp:BoundField DataField="Client_Name" HeaderText="Client" SortExpression="Client_Name" />
+                    <asp:BoundField DataField="Submission_Status" HeaderText="Status" SortExpression="Submission_Status" />
+                    <asp:CheckBoxField DataField="Active" HeaderText="Active" SortExpression="Active" />
+                </Columns>
+                <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+                <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+                <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+                <SortedAscendingCellStyle BackColor="#FDF5AC" />
+                <SortedAscendingHeaderStyle BackColor="#4D0000" />
+                <SortedDescendingCellStyle BackColor="#FCF6C0" />
+                <SortedDescendingHeaderStyle BackColor="#820000" />
+            </asp:GridView>
+
+        </div>
+
+        <%--data source for gridview all submissions--%>
+        <asp:SqlDataSource ID="SqlDataSource_All_Submits" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [SLNO], [Date], [JOB TITLE] AS JOB_TITLE, [CITY], [STATE], [Duration], [RATE PER HOUR] AS RATE_PER_HOUR, [METHOD], [CLIENT SUBMISSION] AS CLIENT_SUBMISSION, [REMARKS], [ASR-RECRUITERS.RECRUITER NAME] AS column1, [VENDOR COMPANY NAME] AS VENDOR_COMPANY_NAME, [Vendor Contact.RECRUITER NAME] AS column2, [Client Name] AS Client_Name, [Submission Status] AS Submission_Status, [Active] FROM [Sub Query FULL] WHERE ([CONSULTANT ID] = ?)">
+            <SelectParameters>
+                <asp:ControlParameter ControlID="ConsultantId" Name="CONSULTANT_ID" PropertyName="Value" Type="Int32" />
+            </SelectParameters>
+        </asp:SqlDataSource>
+
+    </asp:Panel>
+
+
+******************** eval for date ***********************
+ Text='<%# Eval("Date", "{0:MM/dd/yyyy}") %>'
+
+
+
+
+
+
+
+ **********************removed submission content*************
+
+ 
+    <%--update panel to contain SUBMISSION + INTERVIEW panels (so whole pg doesn't postback every time panel is collapsed/expanded)--%>
+    <asp:UpdatePanel ID="UpdatePanel_Submissions_Interviews" runat="server">
+        <ContentTemplate>
+
+
+            <%--div to hold all the panels--%>
+            <div id="All_Panels_Container">
+
+
+                <%--div container to hold cntrol btn + submissions panel--%>
+                <div id="Active_Submissions_Panel_Container">
+
+                    <%--collapse control BUTTON for active submits panel--%>
+                    <%--<asp:Button ID="Active_Submissions_Panel_CollapseBtn" runat="server" Text="View Active Submissions" CssClass="Collapsible_Panel_Button_Toggle" />
+                    <br />--%>
+
+                    <%--div to allow scrolling of ACTIVE SUBMISSIONS panel--%>
+                    <div id="active_submission_scroll_container">
+
+                        <%--panel for active submissions details--%>
+                        <asp:Panel ID="Active_Submissions_Panel" runat="server" CssClass="Active_Submissions_Panel">
+
+                            <%--active submissions repeater--%>
+                            <asp:Repeater ID="Active_Submissions_Repeater" runat="server" DataSourceID="Active_Submissions_DS">
+                                
+                                <ItemTemplate>
+                                    <div class="submission_row_linkbutton">
+                                        <asp:LinkButton ID="LinkButton_Submission_Row" runat="server">
+                                        <span style="/*color: red;*/"><%# Eval("Client_Name") %></span> on <span style="/*color: blue*/"><%# Eval("Date", "{0:d}") %></span> with rate of <span style="color: green"><%# Eval("RATE_PER_HOUR")%></span>   
+                                        </asp:LinkButton>
+                                        <asp:Button ID="Button_Toggle_Interviews" runat="server" Text="-" CssClass="interview_toggle_btn" />
+                                        <span style="float: right; font-size: 14px; background-color: lightgreen; padding: 5px;"><%# Eval("Submission_Status") %></span>
+                                        <asp:Button ID="Button_Add_Interview" runat="server" Text="New Interview" CssClass="Btn_New_Interview" />
+                                    </div>
+
+                                    <%--HOVER menu extender to display EDIT/DELETE buttons for submissions--%>
+                                    <%-- <ajaxToolkit:HoverMenuExtender ID="HoverMenuExtender_Submissions" runat="server"
+                                    TargetControlID="submission_row"
+                                    PopupControlID="PopupMenu_Submissions"
+                                    PopupPosition="Left"
+                                    HoverCssClass="popupMenu_hoverStyle"
+                                    PopDelay="50"
+                                    OffsetX="0"
+                                    OffsetY="0">
+                                </ajaxToolkit:HoverMenuExtender>--%>
+
+                                    <%--HOVER panel menu used in hover menu extender for submissions--%>
+                                    <%--<asp:Panel CssClass="popupMenu" ID="PopupMenu_Submissions"
+                                    runat="server">
+                                    <asp:LinkButton ID="LinkButton_View_Submission" runat="server"
+                                        CommandName="View" Text="View" />
+                                    <br />
+                                    <asp:LinkButton ID="LinkButton_Edit_Submission" runat="server"
+                                        CommandName="Edit" Text="Edit" />
+                                </asp:Panel>--%>
+
+                                    <%--modal popop extender for adding NEW INTERVIEW--%>
+                                    <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_Add_New_Interview" runat="server"
+                                        TargetControlID="Button_Add_Interview"
+                                        PopupControlID="Panel_Add_New_Interview"
+                                        BackgroundCssClass="modalBackground"
+                                        DropShadow="true"
+                                        CancelControlID="Button_popup_Cancel">
+                                    </ajaxToolkit:ModalPopupExtender>
+
+                                    <%--popup panel to add NEW INTERVIEW--%>
+                                    <asp:Panel ID="Panel_Add_New_Interview" Style="display:none" runat="server" CssClass="popupMenu_add_new_interview">
+
+                                        <%--title--%>
+                                        <asp:Label ID="Label_panel_Title" runat="server" CssClass="label_title">
+                                        Add New Interview for Submission #<%# Eval("SLNO") %> to <%# Eval("Client_Name") %>
+                                        </asp:Label>
+
+
+                                        <%--ctrl btns--%>
+                                        <asp:Button ID="Button_popup_Cancel" runat="server" Text="X" CssClass="cancel_btn" />
+                                        <asp:Button ID="Button1" runat="server" Text="Add Interview" CssClass="Btn_Command" />
+
+                                    </asp:Panel>
+
+
+                                    <%--collapsible panel extender to display interviews attached to submission--%>
+                                    <ajaxToolkit:CollapsiblePanelExtender ID="CollapsiblePanelExtender_Submission_Interviews" runat="server"
+                                        AutoCollapse="false"
+                                        TargetControlID="Panel_Submission_Interviews"
+                                        CollapseControlID="Button_Toggle_Interviews"
+                                        ExpandControlID="Button_Toggle_Interviews" />
+
+                                    <%--collapsible panel to display interviews attached to submission--%>
+                                    <asp:Panel ID="Panel_Submission_Interviews" CssClass="submission_intvw_collapsible_panel" runat="server">
+
+                                        <asp:HiddenField ID="HiddenField_Submission_SLNO" runat="server" Value='<%# Eval("SLNO") %>' />
+
+                                        <%--data source for pending interviews panel--%>
+                                        <asp:SqlDataSource ID="Pending_Interviews_DS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [ID], [Submission-SLNO] AS column1, [Type], [Date Scheduled] AS Date_Scheduled, [Method], [Interviewer], [Skills Required] AS Skills_Required, [Status], [Feedback], [Remarks] FROM [Interviews] WHERE ([ConsultantID] = ?) AND ([Submission-SLNO] = ?)">
+                                            <SelectParameters>
+                                                <asp:ControlParameter ControlID="ConsultantId" Name="ConsultantID" PropertyName="Value" Type="Int32" />
+                                                <asp:ControlParameter ControlID="HiddenField_Submission_SLNO" Name="Submission-SLNO" PropertyName="Value" Type="Int32" />
+                                            </SelectParameters>
+                                        </asp:SqlDataSource>
+
+                                        <%--repeater to display submission interviews--%>
+                                        <asp:Repeater ID="Repeater_Submission_Interviews" DataSourceID="Pending_Interviews_DS" runat="server">
+                                            <ItemTemplate>
+
+                                                <div class="interview_row_linkbutton">
+
+                                                    <span style="/*float: left; */background-color: lightblue; padding: 5px; font-size: 14px;"><%# Eval("Status") %></span>
+                                                    <asp:LinkButton ID="LinkButton_Interview_Row" runat="server" Font-Underline="false">
+                                                    Interview on <span style="/*color: red*/"><%# Eval("Date_Scheduled", "{0:d}") %></span> via <span style="/*color: forestgreen*/"><%# Eval("Method") %></span>
+                                                    </asp:LinkButton>
+                                                    <asp:Button ID="Button_View_Interview_Feedback" runat="server" Text="+" CssClass="intvw_feedback_toggle_btn" />
+
+                                                    <%--collapse extender to display interview feedback--%>
+                                                    <ajaxToolkit:CollapsiblePanelExtender ID="CollapsiblePanelExtender_Interview_Feedback" runat="server"
+                                                        Collapsed="true"
+                                                        TargetControlID="Panel_Interview_Feedback"
+                                                        ExpandControlID="Button_View_Interview_Feedback"
+                                                        CollapseControlID="Button_View_Interview_Feedback" />
+
+
+                                                    <%--collapsible panel to display interview feedback--%>
+                                                    <asp:Panel ID="Panel_Interview_Feedback" runat="server">
+                                                        <span style=""><span style="text-decoration: underline;">Feedback:</span> <%# Eval("Feedback") %>
+                                                            <br />
+                                                            <span style="text-decoration: underline">Remarks:</span>  <%# Eval("Remarks") %></span>
+                                                    </asp:Panel>
+
+                                                </div>
+
+
+
+                                                <%--modal POPUP extender for VIEWING interviews--%>
+                                                <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_View_Interview" runat="server"
+                                                    TargetControlID="LinkButton_Interview_Row"
+                                                    PopupControlID="popupMenu_View_Interview"
+                                                    BackgroundCssClass="modalBackground"
+                                                    DropShadow="true"
+                                                    CancelControlID="Cancel_Btn_Interview">
+                                                </ajaxToolkit:ModalPopupExtender>
+
+                                                <%--popup menu for VIEWING interview--%>
+                                                <asp:Panel ID="popupMenu_View_Interview" Style="display:none" CssClass="popupMenu_View_Submissions" runat="server">
+
+                                                    <asp:Label ID="Label_Title_View_Interview" runat="server" Text="View Interview" CssClass="label_title"></asp:Label>
+                                                    <asp:Button ID="Cancel_Btn_Interview" runat="server" Text="X" CssClass="cancel_btn" />
+                                                    <asp:Button ID="Button_Delete_Interview" runat="server" Text="Delete Interview" CssClass="delete_Btn" />
+                                                    <asp:Button ID="Button_Edit_Interview" runat="server" Text="Edit" CssClass="btn_edit_submission" />
+
+                                                </asp:Panel>
+
+
+                                                <%--modal POPUP extender for EDITING interviews--%>
+                                                <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_Edit_Interview" runat="server"
+                                                    TargetControlID="Button_Edit_Interview"
+                                                    PopupControlID="popupMenu_Edit_Interview"
+                                                    BackgroundCssClass="modalBackground"
+                                                    DropShadow="true"
+                                                    CancelControlID="CancelButton_Interview_Edit">
+                                                </ajaxToolkit:ModalPopupExtender>
+
+                                                <%--popup menu for EDITING interview--%>
+                                                <asp:Panel ID="popupMenu_Edit_Interview" Style="display:none" CssClass="popupMenu_View_Submissions" runat="server">
+
+                                                    <asp:Label ID="Label_Edit_Interview" runat="server" Text="Edit Interview" CssClass="label_title"></asp:Label>
+                                                    <asp:Button ID="CancelButton_Interview_Edit" runat="server" Text="X" CssClass="cancel_btn" />
+                                                    <asp:Button ID="Button_Update_Interview" runat="server" Text="Update Interview" CssClass="Btn_Command" />
+
+                                                </asp:Panel>
+
+
+
+                                            </ItemTemplate>
+                                        </asp:Repeater>
+
+                                    </asp:Panel>
+
+
+
+                                    <hr />
+
+
+
+                                    <%--modal POPUP extender for VIEWING submissions--%>
+                                    <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_View_Submissions" runat="server"
+                                        TargetControlID="LinkButton_Submission_Row"
+                                        PopupControlID="popupMenu_View_Submission"
+                                        BackgroundCssClass="modalBackground"
+                                        DropShadow="true"
+                                        CancelControlID="Cancel_Btn">
+                                    </ajaxToolkit:ModalPopupExtender>
+
+                                    <%--modal POPUP extender for EDITING submissions--%>
+                                    <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_Edit_Submissions" runat="server"
+                                        TargetControlID="Button_Edit_Submission"
+                                        PopupControlID="popupMenu_Edit_Submission"
+                                        BackgroundCssClass="modalBackground"
+                                        DropShadow="true"
+                                        CancelControlID="CancelButton">
+                                    </ajaxToolkit:ModalPopupExtender>
+
+
+                                    <%--POPUP panel to VIEW submissions--%>
+                                    <asp:Panel ID="popupMenu_View_Submission" Style="display:none" CssClass="popupMenu_View_Submissions" runat="server">
+
+                                        <asp:Label ID="Label_Title_View" runat="server" Text="View Submission" CssClass="label_title"></asp:Label>
+                                        <asp:Button ID="Cancel_Btn" runat="server" Text="X" CssClass="cancel_btn" />
+                                        <asp:Button ID="Button_Delete_Submission" runat="server" Text="Delete Submission" CssClass="delete_Btn" />
+                                        <asp:Button ID="Button_Edit_Submission" runat="server" Text="Edit" CssClass="btn_edit_submission" />
+
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label1" runat="server" Text="SLNO: " CssClass="label" />
+                                            <asp:Label ID="TextBox1" Text='<%# Eval("SLNO") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label2" runat="server" Text="Consultant: " CssClass="label" />
+                                            <asp:Label ID="TextBox2" Text='<%# Eval("LastName") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label3" runat="server" Text="Recruiter: " CssClass="label" />
+                                            <asp:Label ID="TextBox3" Text='<%# Eval("Recruiter") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label4" runat="server" Text="Client: " CssClass="label" />
+                                            <asp:Label ID="TextBox4" Text='<%# Eval("Client_Name") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label5" runat="server" Text="Rate: " CssClass="label" />
+                                            <asp:Label ID="TextBox5" Text='<%# Eval("RATE_PER_HOUR") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label7" runat="server" Text="Method: " CssClass="label" />
+                                            <asp:Label ID="Label8" Text='<%# Eval("METHOD") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label9" runat="server" Text="City: " CssClass="label" />
+                                            <asp:Label ID="Label10" Text='<%# Eval("CITY") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label11" runat="server" Text="State: " CssClass="label" />
+                                            <asp:Label ID="Label12" Text='<%# Eval("STATE") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label13" runat="server" Text="Job Title: " CssClass="label" />
+                                            <asp:Label ID="Label14" Text='<%# Eval("JOB_TITLE") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label15" runat="server" Text="Duration: " CssClass="label" />
+                                            <asp:Label ID="Label16" Text='<%# Eval("Duration") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label6" runat="server" Text="Vendor: " CssClass="label" />
+                                            <asp:Label ID="TextBox6" Text='<%# Eval("VENDOR_COMPANY_NAME") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label21" runat="server" Text="Vendor Contact: " CssClass="label" />
+                                            <asp:Label ID="Label22" Text='<%# Eval("column2") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label17" runat="server" Text="Client Submission: " CssClass="label" />
+                                            <asp:Label ID="Label18" Text='<%# Eval("CLIENT_SUBMISSION") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label19" runat="server" Text="Remarks: " CssClass="label" />
+                                            <asp:Label ID="Label20" Text='<%# Eval("REMARKS") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label23" runat="server" Text="Submission Status: " CssClass="label" />
+                                            <asp:Label ID="Label24" Text='<%# Eval("Submission_Status") %>' CssClass="label_details" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label32" runat="server" Text="Date: " CssClass="label" />
+                                            <asp:Label ID="TextBox7" Text='<%# Eval("Date", "{0:MM/dd/yyyy}") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label26" runat="server" Text="Is Active: " CssClass="label" />
+                                            <asp:CheckBox ID="CheckBox1" runat="server" Checked='<%# Eval("Active") %>' Enabled="false" CssClass="ChkBoxClass" />
+                                        </div>
+
+                                        <%-- confirm btn extender (works with the modal popup) --%>
+                                        <ajaxToolkit:ConfirmButtonExtender ID="ConfirmButtonExtender_Delete_Submission" runat="server"
+                                            TargetControlID="Button_Delete_Submission"
+                                            DisplayModalPopupID="ModalPopupExtender_Confirm_Delete" />
+
+                                        <%--modal POPUP extender for confirming DELETE of submission--%>
+                                        <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender_Confirm_Delete" runat="server"
+                                            TargetControlID="Button_Delete_Submission"
+                                            PopupControlID="popupMenu_Confirm_Delete"
+                                            BackgroundCssClass="modalBackground"
+                                            DropShadow="true"
+                                            CancelControlID="NoBtn"
+                                            OkControlID="YesBtn">
+                                        </ajaxToolkit:ModalPopupExtender>
+
+                                        <%--popup panel to confirm DELETE of submission--%>
+                                        <asp:Panel ID="popupMenu_Confirm_Delete" Style="display:none" CssClass="popupMenu_Confirm_Delete" runat="server">
+                                            <asp:Label ID="Label_Confirm_Delete" runat="server" Text="Are You Sure You Want To Delete This Submission?" CssClass="label_title"></asp:Label>
+
+                                            <asp:Button ID="YesBtn" runat="server" Text="Yes" CssClass="option_bts" />
+                                            <asp:Button ID="NoBtn" runat="server" Text="No" CssClass="option_bts" />
+                                        </asp:Panel>
+
+                                    </asp:Panel>
+
+
+                                    <%--popup panel to EDIT submissions--%>
+                                    <asp:Panel ID="popupMenu_Edit_Submission" Style="display:none" CssClass="popupMenu_Edit_Submissions" runat="server">
+
+                                        <asp:Label ID="Label_Title_Edit" runat="server" Text="Edit Submission" CssClass="label_title"></asp:Label>
+                                        <asp:Button ID="CancelButton" runat="server" Text="X" CssClass="cancel_btn" />
+                                        <asp:Button ID="Button_Update_Submission" runat="server" Text="Update Submission" CssClass="Btn_Command" />
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="SLNO_Label" runat="server" Text="SLNO: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_SLNO" ReadOnly="true" Text='<%# Eval("SLNO") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label_Consultant" runat="server" Text="Consultant: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_Consultant" ReadOnly="true" Text='<%# Eval("LastName") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label_Recruiter" runat="server" Text="Recruiter: " CssClass="label" />
+                                            <ajaxToolkit:ComboBox ID="Edit_ComboBox_Recruiter" runat="server" Text='<%# Eval("Recruiter") %>' AutoCompleteMode="Append" DataSourceID="SqlDataSource_Recruiters" DataTextField="Recruiter Name" DataValueField="Recruiter Name" MaxLength="0" Style="display: inline; position: absolute; bottom: 5px;" Font-Size="18px" Width="200px" Height="20px"></ajaxToolkit:ComboBox>
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label_Client" runat="server" Text="Client: " CssClass="label" />
+                                            <ajaxToolkit:ComboBox ID="Edit_ComboBox_Client" Text='<%# Eval("Client_Name") %>' runat="server" AutoCompleteMode="Append" DataSourceID="ComboBox_Clients_DS" DataTextField="Client Name" DataValueField="Client Name" MaxLength="0" CssClass="combobox_client" Style="display: inline; position: absolute; bottom: 5px;" Font-Size="18px" Width="300px" Height="20px"></ajaxToolkit:ComboBox>
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label_Rate" runat="server" Text="Rate: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_Rate" ReadOnly="false" Text='<%# Eval("RATE_PER_HOUR") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label25" runat="server" Text="Method: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_Method" Text='<%# Eval("METHOD") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label27" runat="server" Text="City: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_City" Text='<%# Eval("CITY") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label29" runat="server" Text="State: " CssClass="label" />
+                                            <ajaxToolkit:ComboBox ID="ComboBox_State" Text='<%# Eval("STATE") %>' runat="server" AutoCompleteMode="Append" DataSourceID="SqlDataSource_States" DataTextField="LCName" DataValueField="Initials" MaxLength="0" CssClass="combobox_state" Style="display: inline; position: absolute; bottom: 5px;" Width="150px" Font-Size="18px" Height="20px"></ajaxToolkit:ComboBox>
+                                            <%--<asp:TextBox ID="Edit_TextBox_State" Text='<%# Eval("STATE") %>' CssClass="textbox" runat="server" />--%>
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label31" runat="server" Text="Job Title: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_Job_Title" Text='<%# Eval("JOB_TITLE") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label33" runat="server" Text="Duration: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_Duration" Text='<%# Eval("Duration") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label35" runat="server" Text="Vendor: " CssClass="label" />
+                                            <ajaxToolkit:ComboBox ID="ComboBox_Vendor" Text='<%# Eval("VENDOR_COMPANY_NAME") %>' runat="server" AutoCompleteMode="Append" DataSourceID="SqlDataSource_Vendors" DataTextField="Vendor Company Name" DataValueField="Vendor Company Name" MaxLength="0" CssClass="combobox_vendor" Style="display: inline; position: absolute; bottom: 5px;" Width="250px" Font-Size="18px" Height="20px"></ajaxToolkit:ComboBox>
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label37" runat="server" Text="Vendor Contact: " CssClass="label" />
+                                            <ajaxToolkit:ComboBox ID="ComboBox_Vendor_Contact" Text='<%# Eval("column2") %>' runat="server" AutoCompleteMode="Append" DataSourceID="SqlDataSource_Vendor_Contact" DataTextField="Recruiter Name" DataValueField="Recruiter Name" MaxLength="0" CssClass="combobox_vendor_contact" Style="display: inline; position: absolute; bottom: 5px;" Width="200px" Font-Size="18px" Height="20px"></ajaxToolkit:ComboBox>
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label39" runat="server" Text="Client Submission: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_Client_Submission" Text='<%# Eval("CLIENT_SUBMISSION") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label41" runat="server" Text="Remarks: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_Remarks" Text='<%# Eval("REMARKS") %>' CssClass="textbox" runat="server" />
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label43" runat="server" Text="Submission Status: " CssClass="label" />
+                                            <ajaxToolkit:ComboBox ID="Edit_ComboBox_Submission_Status" Text='<%# Eval("Submission_Status") %>' runat="server" AutoCompleteMode="Append" DataSourceID="SqlDataSource_Submission_Status" DataTextField="Status Option" DataValueField="Status Option" MaxLength="0" CssClass="combobox_submission_status" Style="display: inline; position: absolute; bottom: 5px;" Width="300px" Font-Size="18px" Height="20px"></ajaxToolkit:ComboBox>
+                                        </div>
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label28" runat="server" Text="Date: " CssClass="label" />
+                                            <asp:TextBox ID="Edit_TextBox_Date" Text='<%# Eval("Date", "{0:MM/dd/yyyy}") %>' CssClass="textbox" runat="server" />
+                                            <ajaxToolkit:CalendarExtender runat="server" TargetControlID="Edit_TextBox_Date" PopupPosition="TopRight" ID="Edit_TextBox_Date_CalendarExtender"></ajaxToolkit:CalendarExtender>
+                                        </div>
+
+
+                                        <div class="input_fields">
+                                            <asp:Label ID="Label30" runat="server" Text="Is Active: " CssClass="label" />
+                                            <asp:CheckBox ID="Edit_CheckBox_IsActive" runat="server" Checked='<%# Eval("Active") %>' CssClass="ChkBoxClass" />
+                                        </div>
+
+                                    </asp:Panel>
+
+
+                                </ItemTemplate>
+                            </asp:Repeater>
+
+                        </asp:Panel>
+                    </div>
+
+                </div>
+                <%--end submissions div--%>
+
+
+
+
+                <%--collapse extender for submissions panel--%>
+                <%--<ajaxToolkit:CollapsiblePanelExtender ID="CollapsiblePanelExtender1" runat="server"
+                    TargetControlID="Active_Submissions_Panel"
+                    CollapseControlID="Active_Submissions_Panel_CollapseBtn"
+                    ExpandControlID="Active_Submissions_Panel_CollapseBtn"
+                    AutoCollapse="false" />--%>
+
+                <%--data source for active submissions panel--%>
+                <asp:SqlDataSource ID="Active_Submissions_DS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [LastName], [SLNO], [Date], [JOB TITLE] AS JOB_TITLE, [CITY], [STATE], [Duration], [RATE PER HOUR] AS RATE_PER_HOUR, [METHOD], [CLIENT SUBMISSION] AS CLIENT_SUBMISSION, [REMARKS], [ASR-RECRUITERS.RECRUITER NAME] AS Recruiter, [VENDOR COMPANY NAME] AS VENDOR_COMPANY_NAME, [Vendor Contact.RECRUITER NAME] AS column2, [Client Name] AS Client_Name, [Submission Status] AS Submission_Status, Active FROM [ConsultantActiveSubmits] WHERE ([CONSULTANT ID] = ?) ORDER BY [Date] DESC">
+                    <SelectParameters>
+                        <asp:ControlParameter ControlID="ConsultantId" Name="CONSULTANT_ID" PropertyName="Value" Type="Int32" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
+
+                 <%--data source for ALL submissions panel--%>
+                <asp:SqlDataSource ID="All_Submissions_DS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [LastName], [SLNO], [Date], [JOB TITLE] AS JOB_TITLE, [CITY], [STATE], [Duration], [RATE PER HOUR] AS RATE_PER_HOUR, [METHOD], [CLIENT SUBMISSION] AS CLIENT_SUBMISSION, [REMARKS], [ASR-RECRUITERS.RECRUITER NAME] AS Recruiter, [VENDOR COMPANY NAME] AS VENDOR_COMPANY_NAME, [Vendor Contact.RECRUITER NAME] AS column2, [Client Name] AS Client_Name, [Submission Status] AS Submission_Status, Active FROM [ConsultantAllSubmits] WHERE ([CONSULTANT ID] = ?) ORDER BY [Date] DESC">
+                    <SelectParameters>
+                        <asp:ControlParameter ControlID="ConsultantId" Name="CONSULTANT_ID" PropertyName="Value" Type="Int32" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
+                <br />
+
+
+
+
+                <%--removed interviews panel--%>
+            </div>
+            <%--end all panels div container--%>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    <%--end update panel for submissions + interviews--%>
+
+
+ *************************end sub content***********************

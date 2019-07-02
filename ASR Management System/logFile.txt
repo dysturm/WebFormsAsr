@@ -1,0 +1,2635 @@
+********** 1/16/2019 12:47:19 PM **********
+
+session id is null
+
+
+********** 1/16/2019 12:50:54 PM **********
+
+session id is null
+
+
+********** 1/16/2019 12:54:54 PM **********
+
+successfully saved id #3 to file.
+
+********** 1/16/2019 12:54:54 PM **********
+
+session id = 3
+
+
+********** 1/21/2019 1:18:54 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: ASP.pages_viewallsubmissions_aspx
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.setFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 77
+   at ASR_Management_System.Pages.ViewAllSubmissions.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 31
+
+********** 1/21/2019 1:22:51 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: ASP.pages_viewallsubmissions_aspx
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.setFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 77
+   at ASR_Management_System.Pages.ViewAllSubmissions.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 31
+
+********** 1/21/2019 1:24:31 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: ASP.pages_viewallsubmissions_aspx
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.setFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 77
+   at ASR_Management_System.Pages.ViewAllSubmissions.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 31
+
+********** 1/21/2019 1:30:04 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: ASP.pages_viewallsubmissions_aspx
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.setFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 79
+   at ASR_Management_System.Pages.ViewAllSubmissions.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 31
+
+********** 1/21/2019 3:29:01 PM **********
+Exception Type: System.Exception
+Exception: i threw exception
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 75
+********** 1/21/2019 3:36:43 PM **********
+Exception Type: System.Exception
+Exception: i threw exception
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 75
+
+********** 1/21/2019 3:39:24 PM **********
+Exception Type: System.Exception
+Exception: i threw exception
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 75
+
+********** 1/21/2019 3:39:31 PM **********
+Exception Type: System.Exception
+Exception: i threw exception
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 75
+
+********** 1/21/2019 3:39:37 PM **********
+Exception Type: System.Exception
+Exception: i threw exception
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 75
+
+********** 1/23/2019 11:34:44 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: System.Web.UI.WebControls.Repeater
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.setFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 115
+   at ASR_Management_System.Pages.ViewAllSubmissions.All_Submissions_Repeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 38
+
+********** 1/23/2019 11:42:45 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: System.Web.UI.WebControls.Repeater
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.setFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 108
+   at ASR_Management_System.Pages.ViewAllSubmissions.All_Submissions_Repeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 38
+
+********** 1/23/2019 11:53:11 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: System.Web.UI.WebControls.Repeater
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.setFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 108
+   at ASR_Management_System.Pages.ViewAllSubmissions.All_Submissions_Repeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 38
+
+********** 1/23/2019 12:08:53 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: System.Web.UI.WebControls.Repeater
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.setFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 108
+   at ASR_Management_System.Pages.ViewAllSubmissions.All_Submissions_Repeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 38
+
+********** 1/23/2019 1:32:36 PM **********
+
+
+
+
+********** 1/23/2019 9:37:30 PM **********
+
+State textbox = AZ
+
+********** 1/24/2019 12:21:27 PM **********
+
+showInterview called
+
+********** 1/24/2019 12:21:29 PM **********
+
+about to call show() method
+
+********** 1/24/2019 12:26:08 PM **********
+
+Edit Interview Btn clicked
+
+********** 1/24/2019 12:28:13 PM **********
+
+Edit Interview Btn clicked
+
+********** 1/24/2019 12:28:13 PM **********
+
+about to enable fields
+
+********** 1/24/2019 12:29:16 PM **********
+
+Invalid State Entered 'Indi'. Does not exist.
+
+********** 1/24/2019 12:29:16 PM **********
+Exception Type: System.Exception
+Exception: Invalid State Entered 'Indi'. Does not exist.
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.checkFields(String recruiter, String client, String rateString, String method, String city, String state, String jobTitle, String duration, String vendor, String vendorContact, String clientSubmission, String remarks, String status, String dateString) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 48
+   at ASR_Management_System.Pages.ViewAllSubmissions.updateSubmission(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 194
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 76
+
+********** 1/24/2019 12:29:40 PM **********
+
+Invalid State Entered 'India'. Does not exist.
+
+********** 1/24/2019 12:29:40 PM **********
+Exception Type: System.Exception
+Exception: Invalid State Entered 'India'. Does not exist.
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.checkFields(String recruiter, String client, String rateString, String method, String city, String state, String jobTitle, String duration, String vendor, String vendorContact, String clientSubmission, String remarks, String status, String dateString) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 48
+   at ASR_Management_System.Pages.ViewAllSubmissions.updateSubmission(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 194
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 76
+
+********** 1/24/2019 12:34:50 PM **********
+
+Invalid State Entered 'India'. Does not exist.
+
+********** 1/24/2019 12:34:51 PM **********
+Exception Type: System.Exception
+Exception: Invalid State Entered 'India'. Does not exist.
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.checkFields(String recruiter, String client, String rateString, String method, String city, String state, String jobTitle, String duration, String vendor, String vendorContact, String clientSubmission, String remarks, String status, String dateString) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 48
+   at ASR_Management_System.Pages.ViewAllSubmissions.updateSubmission(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 194
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 76
+
+********** 1/24/2019 12:34:51 PM **********
+
+Message to show is: 'Invalid State Entered 'India'. Does not exist.
+' and text was set to 'Invalid State Entered 'India'. Does not exist.
+'
+
+********** 1/24/2019 12:47:49 PM **********
+
+Invalid State Entered 'India'. Does not exist.
+
+********** 1/24/2019 12:47:49 PM **********
+Exception Type: System.Exception
+Exception: Invalid State Entered 'India'. Does not exist.
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.checkFields(String recruiter, String client, String rateString, String method, String city, String state, String jobTitle, String duration, String vendor, String vendorContact, String clientSubmission, String remarks, String status, String dateString) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 48
+   at ASR_Management_System.Pages.ViewAllSubmissions.updateSubmission(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 204
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 86
+
+********** 1/24/2019 1:02:04 PM **********
+
+Invalid State Entered 'Indian'. Does not exist.
+
+********** 1/24/2019 1:02:04 PM **********
+Exception Type: System.Exception
+Exception: Invalid State Entered 'Indian'. Does not exist.
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.checkFields(String recruiter, String client, String rateString, String method, String city, String state, String jobTitle, String duration, String vendor, String vendorContact, String clientSubmission, String remarks, String status, String dateString) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 48
+   at ASR_Management_System.Pages.ViewAllSubmissions.updateSubmission(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 204
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 86
+
+********** 1/24/2019 1:03:48 PM **********
+
+Invalid State Entered 'Indian'. Does not exist.
+
+********** 1/24/2019 1:03:48 PM **********
+Exception Type: System.Exception
+Exception: Invalid State Entered 'Indian'. Does not exist.
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.checkFields(String recruiter, String client, String rateString, String method, String city, String state, String jobTitle, String duration, String vendor, String vendorContact, String clientSubmission, String remarks, String status, String dateString) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 48
+   at ASR_Management_System.Pages.ViewAllSubmissions.updateSubmission(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 204
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 86
+
+********** 1/24/2019 1:05:18 PM **********
+
+Invalid State Entered 'Indian'. Does not exist.
+
+********** 1/24/2019 1:05:18 PM **********
+Exception Type: System.Exception
+Exception: Invalid State Entered 'Indian'. Does not exist.
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.checkFields(String recruiter, String client, String rateString, String method, String city, String state, String jobTitle, String duration, String vendor, String vendorContact, String clientSubmission, String remarks, String status, String dateString) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 48
+   at ASR_Management_System.Pages.ViewAllSubmissions.updateSubmission(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 204
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Save_Changes_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 86
+
+********** 1/24/2019 1:09:23 PM **********
+
+enable method called
+
+********** 1/24/2019 1:09:25 PM **********
+
+Edit Interview Btn clicked
+
+********** 1/24/2019 1:09:25 PM **********
+
+about to enable fields
+
+********** 1/24/2019 1:09:25 PM **********
+
+enable method called
+
+********** 1/24/2019 1:12:48 PM **********
+
+enable method called
+
+********** 1/24/2019 1:12:49 PM **********
+
+enable method called
+
+********** 1/24/2019 1:30:27 PM **********
+
+Add Interview btn clicked
+
+********** 1/24/2019 1:30:27 PM **********
+
+enable method called
+
+********** 1/24/2019 1:31:59 PM **********
+
+enable method called
+
+********** 1/24/2019 1:33:10 PM **********
+
+enable method called
+
+********** 1/24/2019 1:33:10 PM **********
+
+show() method called
+
+********** 1/24/2019 1:36:24 PM **********
+
+enable method called
+
+********** 1/24/2019 1:36:37 PM **********
+
+Edit Interview Btn clicked
+
+********** 1/24/2019 1:36:37 PM **********
+
+about to enable fields
+
+********** 1/24/2019 1:36:37 PM **********
+
+enable method called
+
+********** 1/24/2019 1:48:55 PM **********
+
+Edit Interview Btn clicked
+
+********** 1/24/2019 1:48:55 PM **********
+
+about to enable fields
+
+********** 1/24/2019 1:48:55 PM **********
+
+enable method called
+
+********** 1/25/2019 12:16:09 AM **********
+
+enable method called
+
+********** 1/25/2019 12:16:12 AM **********
+
+Edit Interview Btn clicked
+
+********** 1/25/2019 12:16:12 AM **********
+
+about to enable fields
+
+********** 1/25/2019 12:16:12 AM **********
+
+enable method called
+
+********** 1/25/2019 12:16:51 AM **********
+
+enable method called
+
+********** 1/25/2019 12:16:55 AM **********
+
+Edit Interview Btn clicked
+
+********** 1/25/2019 12:16:55 AM **********
+
+about to enable fields
+
+********** 1/25/2019 12:16:55 AM **********
+
+enable method called
+
+********** 1/25/2019 12:17:02 AM **********
+
+enable method called
+
+********** 1/25/2019 12:17:02 AM **********
+
+show() method called
+
+********** 1/25/2019 12:17:08 AM **********
+
+enable method called
+
+********** 1/25/2019 12:17:08 AM **********
+
+show() method called
+
+********** 1/25/2019 12:17:32 AM **********
+
+enable method called
+
+********** 1/25/2019 12:17:34 AM **********
+
+Edit Interview Btn clicked
+
+********** 1/25/2019 12:17:34 AM **********
+
+about to enable fields
+
+********** 1/25/2019 12:17:34 AM **********
+
+enable method called
+
+********** 1/25/2019 12:17:38 AM **********
+
+Edit Interview Btn clicked
+
+********** 1/25/2019 12:17:38 AM **********
+
+about to enable fields
+
+********** 1/25/2019 12:17:38 AM **********
+
+enable method called
+
+********** 1/25/2019 12:17:58 AM **********
+
+enable method called
+
+********** 1/25/2019 12:18:00 AM **********
+
+Edit Interview Btn clicked
+
+********** 1/25/2019 12:18:00 AM **********
+
+about to enable fields
+
+********** 1/25/2019 12:18:00 AM **********
+
+enable method called
+
+********** 1/25/2019 12:21:34 AM **********
+
+new client added 'American Expre'
+
+********** 1/25/2019 12:33:14 AM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 411
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/25/2019 12:38:12 AM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 411
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/25/2019 12:44:19 AM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 411
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/25/2019 12:53:24 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 413
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/25/2019 12:54:41 AM **********
+
+Num items = 3
+System.Web.UI.WebControls.ListItemCollection
+
+********** 1/25/2019 12:54:41 AM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 415
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/25/2019 12:58:11 AM **********
+
+Num items = 3
+text = '' value = ''
+text = '' value = ''
+text = '' value = ''
+
+********** 1/25/2019 12:58:11 AM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 418
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/25/2019 1:02:57 AM **********
+
+Num items = 0
+
+********** 1/25/2019 1:02:57 AM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Status' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 420
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/25/2019 1:04:21 AM **********
+
+Num items = 0
+
+********** 1/25/2019 1:04:21 AM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Status' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 420
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/29/2019 11:49:48 AM **********
+
+Num items = 0
+
+********** 1/29/2019 11:49:48 AM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Status' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 420
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Edit_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 361
+
+********** 1/29/2019 11:51:20 AM **********
+
+Num items = 0
+
+********** 1/29/2019 11:51:20 AM **********
+
+show() method called
+
+********** 1/29/2019 11:52:09 AM **********
+
+Num items = 0
+
+********** 1/29/2019 11:52:09 AM **********
+
+show() method called
+
+********** 1/29/2019 12:00:37 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:00:37 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Status' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 421
+
+********** 1/29/2019 12:03:19 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:03:19 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Status' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 421
+
+********** 1/29/2019 12:07:05 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:07:05 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Method' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 420
+
+********** 1/29/2019 12:11:01 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:11:01 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Method' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 420
+
+********** 1/29/2019 12:12:19 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/29/2019 12:12:33 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/29/2019 12:12:51 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/29/2019 12:13:08 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:13:08 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Method' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 420
+
+********** 1/29/2019 12:13:35 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:13:35 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Method' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 420
+
+********** 1/29/2019 12:14:06 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/29/2019 12:14:16 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/29/2019 12:14:25 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/29/2019 12:16:50 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:17:49 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:18:46 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:18:49 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:18:56 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:19:09 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:20:10 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Repeater
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.ClearFieldValues(Panel panel) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 323
+   at ASR_Management_System.Pages.ViewAllSubmissions.All_Submissions_Repeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 73
+
+********** 1/29/2019 12:20:21 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:20:21 PM **********
+
+show() method called
+
+********** 1/29/2019 12:20:25 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:20:26 PM **********
+
+show() method called
+
+********** 1/29/2019 12:20:45 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:20:45 PM **********
+
+show() method called
+
+********** 1/29/2019 12:20:51 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:21:09 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/29/2019 12:21:12 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/29/2019 12:21:22 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: System.Web.UI.WebControls.Repeater
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.ClearFieldValues(Panel panel) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 323
+   at ASR_Management_System.Pages.ViewAllSubmissions.All_Submissions_Repeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 73
+
+********** 1/29/2019 12:21:28 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:21:28 PM **********
+
+show() method called
+
+********** 1/29/2019 12:21:29 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:21:29 PM **********
+
+show() method called
+
+********** 1/29/2019 12:21:31 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:21:31 PM **********
+
+show() method called
+
+********** 1/29/2019 12:21:33 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:21:33 PM **********
+
+show() method called
+
+********** 1/29/2019 12:21:34 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:21:34 PM **********
+
+show() method called
+
+********** 1/29/2019 12:21:35 PM **********
+
+Num items = 0
+
+********** 1/29/2019 12:21:35 PM **********
+
+show() method called
+
+********** 1/29/2019 12:55:23 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: System.Web.UI.WebControls.Repeater
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASR_Management_System.Pages.ViewAllSubmissions.All_Submissions_Repeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 83
+
+********** 1/29/2019 12:58:44 PM **********
+
+Num items = 0
+
+********** 1/29/2019 1:05:50 PM **********
+
+Num items = 0
+
+********** 1/29/2019 1:06:15 PM **********
+
+Num items = 0
+
+********** 1/31/2019 11:21:34 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 11:22:20 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 11:22:55 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 11:29:36 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 12:46:13 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 12:46:25 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: ASP.pages_viewallsubmissions_aspx
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.ClearFieldValues(Panel panel) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 332
+   at ASR_Management_System.Pages.ViewAllSubmissions.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 47
+
+********** 1/31/2019 12:46:46 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 12:46:59 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: ASP.pages_viewallsubmissions_aspx
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.ClearFieldValues(Panel panel) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 332
+   at ASR_Management_System.Pages.ViewAllSubmissions.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 47
+
+********** 1/31/2019 12:47:06 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 12:47:16 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 12:47:28 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: ASP.pages_viewallsubmissions_aspx
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.ClearFieldValues(Panel panel) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 332
+   at ASR_Management_System.Pages.ViewAllSubmissions.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 47
+
+********** 1/31/2019 12:48:19 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 1/31/2019 12:48:49 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: ASP.pages_viewallsubmissions_aspx
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.ClearFieldValues(Panel panel) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 332
+   at ASR_Management_System.Pages.ViewAllSubmissions.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 47
+
+********** 1/31/2019 12:51:33 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:48:58 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:48:58 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 431
+
+********** 2/3/2019 8:49:16 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:49:16 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 431
+
+********** 2/3/2019 8:49:23 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:49:23 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 431
+
+********** 2/3/2019 8:49:23 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:49:27 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:49:27 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 431
+
+********** 2/3/2019 8:49:37 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:49:37 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 431
+
+********** 2/3/2019 8:49:45 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:49:45 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 431
+
+********** 2/3/2019 8:50:41 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:50:50 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:50:50 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 431
+
+********** 2/3/2019 8:50:50 PM **********
+
+Date '' is not parsable
+
+********** 2/3/2019 8:50:50 PM **********
+Exception Type: System.Exception
+Exception: Date '' is not parsable
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.CheckInterviewFields(Dictionary`2 interviewValues) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 80
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Add_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 527
+
+********** 2/3/2019 8:51:40 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:51:58 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:52:35 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:52:35 PM **********
+Exception Type: System.ArgumentOutOfRangeException
+Exception: 'ComboBox_Intvw_Type' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: EnableInterviewFieldEdit
+Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at System.Web.UI.WebControls.ListControl.set_Text(String value)
+   at ASR_Management_System.Pages.ViewAllSubmissions.EnableInterviewFieldEdit(Boolean setEnabled) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 431
+
+********** 2/3/2019 8:56:33 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:56:55 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 8:57:05 PM **********
+Exception Type: System.Collections.Generic.KeyNotFoundException
+Exception: The given key was not present in the dictionary.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ASR_Management_System.Pages.ViewAllSubmissions.UpdateInterview() in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 488
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Update_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 380
+
+********** 2/3/2019 8:59:37 PM **********
+
+Num items = 0
+
+********** 2/3/2019 8:59:43 PM **********
+
+Interview #5 successfully updated.
+
+********** 2/3/2019 9:00:09 PM **********
+
+Num items = 0
+
+********** 2/3/2019 9:00:13 PM **********
+
+Interview #5 successfully updated.
+
+********** 2/3/2019 9:00:28 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/3/2019 9:00:49 PM **********
+
+New Interview #8 successfully added.
+
+********** 2/3/2019 9:01:19 PM **********
+
+Num items = 0
+
+********** 2/3/2019 9:01:26 PM **********
+
+Interview #8 successfully updated.
+
+********** 2/3/2019 9:09:37 PM **********
+
+Num items = 0
+
+********** 2/3/2019 9:09:42 PM **********
+
+Interview #8 successfully updated.
+
+********** 2/3/2019 9:12:14 PM **********
+
+Num items = 0
+
+********** 2/3/2019 9:12:18 PM **********
+
+Interview #8 successfully updated.
+
+********** 2/3/2019 9:12:18 PM **********
+Exception Type: System.InvalidOperationException
+Exception: The Update method can only be called on UpdatePanel with ID 'UpdatePanel_Submissions_Interviews' when UpdateMode is set to Conditional.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Web.UI.UpdatePanel.Update()
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Update_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 385
+
+********** 2/3/2019 9:13:18 PM **********
+
+Num items = 0
+
+********** 2/3/2019 9:13:22 PM **********
+
+Interview #8 successfully updated.
+
+********** 2/3/2019 9:13:52 PM **********
+
+Num items = 0
+
+********** 2/3/2019 9:13:56 PM **********
+
+Interview #8 successfully updated.
+
+********** 2/11/2019 12:19:40 AM **********
+
+Num items = 0
+
+********** 2/11/2019 12:20:00 AM **********
+
+Interview #8 successfully updated.
+
+********** 2/11/2019 12:20:02 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/11/2019 12:20:09 AM **********
+
+Interview #8 successfully updated.
+
+********** 2/11/2019 12:56:51 AM **********
+
+cancel btn clicked
+
+********** 2/11/2019 12:56:54 AM **********
+
+cancel btn clicked
+
+********** 2/11/2019 12:57:02 AM **********
+
+cancel btn clicked
+
+********** 2/11/2019 1:03:14 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/11/2019 1:06:52 AM **********
+
+changesMade = False
+
+********** 2/11/2019 1:06:58 AM **********
+
+changesMade = False
+
+********** 2/11/2019 1:07:04 AM **********
+
+changesMade = False
+
+********** 2/11/2019 1:07:31 AM **********
+
+changesMade = False
+
+********** 2/11/2019 1:07:55 AM **********
+
+changesMade = False
+
+********** 2/11/2019 1:15:45 AM **********
+
+Num items = 0
+
+********** 2/11/2019 1:15:48 AM **********
+
+Interview #8 successfully updated.
+
+********** 2/11/2019 1:17:33 AM **********
+
+Num items = 0
+
+********** 2/11/2019 1:17:40 AM **********
+
+Interview #7 successfully updated.
+
+********** 2/11/2019 1:17:42 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/11/2019 1:17:45 AM **********
+
+Interview #7 successfully updated.
+
+********** 2/11/2019 8:27:23 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+
+
+
+
+
+
+
+********** 2/12/2019 12:30:09 PM **********
+
+attempts = 0
+
+********** 2/12/2019 12:33:51 PM **********
+
+attempts = 0
+
+********** 2/12/2019 12:35:12 PM **********
+
+attempts = 1
+
+********** 2/12/2019 1:03:30 PM **********
+
+attempts = 0
+
+********** 2/12/2019 1:45:00 PM **********
+
+attempts = 0
+
+********** 2/12/2019 3:41:16 PM **********
+
+attempts = 0
+
+********** 2/12/2019 3:41:26 PM **********
+
+attempts = 1
+
+********** 2/12/2019 3:42:08 PM **********
+
+attempts = 2
+
+********** 2/12/2019 3:42:32 PM **********
+
+attempts = 3
+
+********** 2/12/2019 3:42:46 PM **********
+
+attempts = 4
+
+********** 2/12/2019 3:42:52 PM **********
+
+attempts = 4
+
+********** 2/12/2019 3:42:55 PM **********
+
+attempts = 0
+
+********** 2/12/2019 3:43:10 PM **********
+
+attempts = 1
+
+********** 2/12/2019 3:44:40 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Sequence contains no elements
+Source: ASP.site1_master
+Stack Trace: 
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ASR_Management_System.Site1.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 27
+
+********** 2/12/2019 3:44:51 PM **********
+
+attempts = 0
+
+********** 2/12/2019 3:47:34 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Sequence contains no elements
+Source: ASP.site1_master
+Stack Trace: 
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ASR_Management_System.Site1.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 27
+
+********** 2/12/2019 3:48:41 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Sequence contains no elements
+Source: ASP.site1_master
+Stack Trace: 
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ASR_Management_System.Site1.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 27
+
+********** 2/12/2019 3:49:54 PM **********
+
+cookie val = 
+
+********** 2/12/2019 3:49:56 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Sequence contains no elements
+Source: ASP.site1_master
+Stack Trace: 
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ASR_Management_System.Site1.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 28
+
+********** 2/12/2019 3:50:22 PM **********
+
+cookie val = 
+
+********** 2/12/2019 3:50:22 PM **********
+Exception Type: System.InvalidOperationException
+Exception: Sequence contains no elements
+Source: ASP.site1_master
+Stack Trace: 
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at lambda_method(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ASR_Management_System.Site1.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 28
+
+********** 2/12/2019 3:52:24 PM **********
+
+cookie val = 
+
+********** 2/12/2019 4:09:58 PM **********
+
+cookie tests failed. cookie null = True
+
+********** 2/12/2019 4:10:19 PM **********
+
+cookie tests failed. cookie null = True
+
+********** 2/12/2019 4:20:50 PM **********
+
+cookie saved
+
+********** 2/12/2019 4:27:20 PM **********
+
+cookie saved
+
+********** 2/12/2019 4:27:35 PM **********
+
+cookie saved
+
+********** 2/12/2019 4:37:09 PM **********
+
+cookie tests failed. cookie null = True
+
+********** 2/13/2019 9:44:15 PM **********
+
+New recruiter 'Martin' added.
+
+********** 2/13/2019 9:56:59 PM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter Name already exists.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.Update_Records_Pgs.AddRecruiter.btnAddRecruiter_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Update Records Pgs\AddRecruiter.aspx.cs:line 31
+
+********** 2/13/2019 9:57:19 PM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter Name already exists.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.Update_Records_Pgs.AddRecruiter.btnAddRecruiter_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Update Records Pgs\AddRecruiter.aspx.cs:line 31
+
+********** 2/13/2019 9:57:35 PM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter Name already exists.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.Update_Records_Pgs.AddRecruiter.btnAddRecruiter_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Update Records Pgs\AddRecruiter.aspx.cs:line 31
+
+********** 2/13/2019 9:58:05 PM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter Name already exists.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.Update_Records_Pgs.AddRecruiter.btnAddRecruiter_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Update Records Pgs\AddRecruiter.aspx.cs:line 31
+
+********** 2/13/2019 10:02:29 PM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter Name already exists.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.Update_Records_Pgs.AddRecruiter.btnAddRecruiter_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Update Records Pgs\AddRecruiter.aspx.cs:line 31
+
+********** 2/13/2019 10:06:01 PM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter Name already exists.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.Update_Records_Pgs.AddRecruiter.btnAddRecruiter_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Update Records Pgs\AddRecruiter.aspx.cs:line 31
+
+********** 2/17/2019 11:44:53 PM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter Name already exists.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.Update_Records_Pgs.AddRecruiter.btnAddRecruiter_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Update Records Pgs\AddRecruiter.aspx.cs:line 31
+
+********** 2/17/2019 11:54:48 PM **********
+
+cookie tests failed. cookie null = True
+
+********** 2/17/2019 11:58:58 PM **********
+Exception Type: System.FormatException
+Exception: String was not recognized as a valid DateTime.
+Source: setFieldVals for slno #96 in ViewAllSubmissions.aspx
+Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at ASR_Management_System.Pages.ViewAllSubmissions.setSubmissionFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 181
+
+********** 2/17/2019 11:59:14 PM **********
+Exception Type: System.FormatException
+Exception: String was not recognized as a valid DateTime.
+Source: setFieldVals for slno #96 in ViewAllSubmissions.aspx
+Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at ASR_Management_System.Pages.ViewAllSubmissions.setSubmissionFieldValues(Int32 slnoNum) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 181
+
+********** 2/18/2019 12:04:39 PM **********
+
+cookie tests failed. cookie null = False
+
+********** 2/18/2019 12:48:44 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/18/2019 12:50:35 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/18/2019 12:51:05 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/18/2019 12:52:06 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/18/2019 12:52:11 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/18/2019 12:53:19 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/18/2019 12:58:11 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/18/2019 1:04:17 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/18/2019 1:04:17 PM **********
+Exception Type: System.Net.Mail.SmtpException
+Exception: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ASR_Management_System.Pages.ErrorPgs.Error.SendEmail(Exception exception) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ErrorPgs\Error.aspx.cs:line 59
+   at ASR_Management_System.Pages.ErrorPgs.Error.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ErrorPgs\Error.aspx.cs:line 30
+
+********** 2/19/2019 12:59:52 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/19/2019 12:59:53 PM **********
+Exception Type: System.Net.Mail.SmtpException
+Exception: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ASR_Management_System.Pages.ErrorPgs.Error.SendEmail(Exception exception) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ErrorPgs\Error.aspx.cs:line 59
+   at ASR_Management_System.Pages.ErrorPgs.Error.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ErrorPgs\Error.aspx.cs:line 30
+
+********** 2/19/2019 1:03:59 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/19/2019 1:04:00 PM **********
+Exception Type: System.Net.Mail.SmtpException
+Exception: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ASR_Management_System.Pages.ErrorPgs.Error.SendEmail(Exception exception) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ErrorPgs\Error.aspx.cs:line 59
+   at ASR_Management_System.Pages.ErrorPgs.Error.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ErrorPgs\Error.aspx.cs:line 30
+
+********** 2/19/2019 1:08:49 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/19/2019 1:08:49 PM **********
+Exception Type: System.Net.Mail.SmtpException
+Exception: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ASR_Management_System.Pages.ErrorPgs.Error.SendEmail(Exception exception) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ErrorPgs\Error.aspx.cs:line 59
+   at ASR_Management_System.Pages.ErrorPgs.Error.Page_Load(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ErrorPgs\Error.aspx.cs:line 30
+
+********** 2/19/2019 1:14:17 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/19/2019 1:29:59 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/19/2019 1:40:54 PM **********
+Inner Exception Type: System.IndexOutOfRangeException
+Inner Exception: Index was outside the bounds of the array.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.WebForm1.Button2_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Home.aspx.cs:line 34
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_home_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/19/2019 1:59:37 PM **********
+Inner Exception Type: System.Data.OleDb.OleDbException
+Inner Exception: You tried to assign the Null value to a variable that is not a Variant data type.
+Inner Source: Microsoft Office Access Database Engine
+Inner Stack Trace: 
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteDbCommand(DbCommand command, DataSourceOperation operation)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteInsert(IDictionary values)
+   at System.Web.UI.DataSourceView.Insert(IDictionary values, DataSourceViewOperationCallback callback)
+   at System.Web.UI.WebControls.FormView.HandleInsert(String commandArg, Boolean causesValidation)
+   at System.Web.UI.WebControls.FormView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.FormView.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.FormViewRow.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_update_records_pgs_manageusers_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/19/2019 2:02:06 PM **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: The ControlToValidate property of 'RequiredFieldValidator1' cannot be blank.
+Inner Source: System.Web
+Inner Stack Trace: 
+   at System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_update_records_pgs_manageusers_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/20/2019 12:35:32 AM **********
+Inner Exception Type: System.Data.OleDb.OleDbException
+Inner Exception: You tried to assign the Null value to a variable that is not a Variant data type.
+Inner Source: Microsoft Office Access Database Engine
+Inner Stack Trace: 
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteDbCommand(DbCommand command, DataSourceOperation operation)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteInsert(IDictionary values)
+   at System.Web.UI.DataSourceView.Insert(IDictionary values, DataSourceViewOperationCallback callback)
+   at System.Web.UI.WebControls.FormView.HandleInsert(String commandArg, Boolean causesValidation)
+   at System.Web.UI.WebControls.FormView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.FormView.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.FormViewRow.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_update_records_pgs_manageusers_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/20/2019 12:48:23 AM **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: Unable to find control id 'RoleTextBox' referenced by the 'ControlToValidate' property of 'RequiredFieldValidator3'.
+Inner Source: System.Web
+Inner Stack Trace: 
+   at System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   at System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_update_records_pgs_manageusers_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/20/2019 1:07:45 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/20/2019 1:07:54 AM **********
+
+Date '' is not parsable
+
+********** 2/20/2019 1:07:54 AM **********
+Exception Type: System.Exception
+Exception: Date '' is not parsable
+
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.App_Code.FieldValidator.throwException(List`1 invalidFields) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 63
+   at ASR_Management_System.App_Code.FieldValidator.CheckInterviewFields(Dictionary`2 interviewValues) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\App_Code\FieldValidator.cs:line 80
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Add_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 544
+
+********** 2/20/2019 1:36:06 PM **********
+Inner Exception Type: System.ArgumentOutOfRangeException
+Inner Exception: 'ComboBox_Recruiter' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Inner Source: System.Web
+Inner Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at AjaxControlToolkit.ComboBox.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_viewallsubmissions_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/21/2019 12:52:41 PM **********
+Inner Exception Type: System.NullReferenceException
+Inner Exception: Object reference not set to an instance of an object.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.Consultants.Label_Consultant_Status_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Consultants.aspx.cs:line 295
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_consultants_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/21/2019 12:55:54 PM **********
+Inner Exception Type: System.NullReferenceException
+Inner Exception: Object reference not set to an instance of an object.
+Inner Source: ASR Management System
+Inner Stack Trace: 
+   at ASR_Management_System.Pages.Consultants.Label_Consultant_Status_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Consultants.aspx.cs:line 286
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_consultants_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/21/2019 1:41:21 PM **********
+Inner Exception Type: System.ArgumentOutOfRangeException
+Inner Exception: 'ComboBox_Recruiter' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Inner Source: System.Web
+Inner Stack Trace: 
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at AjaxControlToolkit.ComboBox.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: ASP.pages_errorpgs_error_aspx
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_viewallsubmissions_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/21/2019 1:43:26 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/21/2019 2:02:44 PM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/21/2019 2:31:05 PM **********
+
+Input string was not in a correct format.
+
+********** 2/21/2019 2:34:52 PM **********
+
+create sub clicked.
+
+********** 2/21/2019 2:34:52 PM **********
+
+Input string was not in a correct format.
+
+********** 2/21/2019 2:34:52 PM **********
+
+Create sub ended.
+
+********** 2/21/2019 2:37:10 PM **********
+
+create sub clicked.
+
+********** 2/21/2019 2:37:10 PM **********
+
+Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Create_Submission_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 691
+
+********** 2/21/2019 2:37:10 PM **********
+
+Create sub ended.
+
+********** 2/21/2019 2:39:58 PM **********
+
+create sub clicked.
+
+********** 2/22/2019 12:17:31 AM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter name does not exist. First click add new Recruiter.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Create_Submission_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 744
+
+********** 2/22/2019 12:18:12 AM **********
+
+Num items = 0
+
+********** 2/22/2019 12:18:18 AM **********
+
+Interview #7 successfully updated.
+
+********** 2/22/2019 12:18:21 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/22/2019 12:18:24 AM **********
+
+Interview #7 successfully updated.
+
+********** 2/22/2019 12:23:13 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/22/2019 1:06:42 AM **********
+
+submission 119 to Bank of New York Mellon successfully marked for deletion.
+
+********** 2/22/2019 1:17:37 AM **********
+
+submission 117 to HCL/Google successfully marked for deletion.
+
+********** 2/22/2019 1:18:01 AM **********
+
+submission 116 to Nike successfully marked for deletion.
+
+********** 2/25/2019 2:05:24 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: masterPgLoginValidation
+Stack Trace: 
+   at ASR_Management_System.Site1.CheckIfAdmin() in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 63
+
+********** 2/25/2019 2:18:28 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: masterPgLoginValidation
+Stack Trace: 
+   at ASR_Management_System.Site1.CheckIfAdmin() in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 63
+
+********** 2/25/2019 2:20:01 AM **********
+
+submission 119 to Bank of New York Mellon successfully marked for deletion.
+
+********** 2/25/2019 2:24:32 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: masterPgLoginValidation
+Stack Trace: 
+   at ASR_Management_System.Site1.CheckIfAdmin() in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 63
+
+********** 2/25/2019 2:25:03 AM **********
+
+submission 119 to Bank of New York Mellon successfully marked for deletion.
+
+********** 2/25/2019 2:25:20 AM **********
+
+submission 119 to Bank of New York Mellon successfully marked for deletion.
+
+********** 2/25/2019 2:27:17 AM **********
+
+submission 117 to HCL/Google successfully marked for deletion.
+
+********** 2/25/2019 2:28:57 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/25/2019 2:29:25 AM **********
+
+New Interview #9 successfully added.
+
+********** 2/25/2019 2:30:13 AM **********
+
+Num items = 0
+
+********** 2/25/2019 2:30:18 AM **********
+
+Interview #9 successfully updated.
+
+********** 2/25/2019 2:42:29 AM **********
+
+interview delete btn clicked.
+
+********** 2/25/2019 2:44:15 AM **********
+
+interview delete btn clicked.
+
+********** 2/25/2019 2:44:15 AM **********
+
+Interview 9 for Goel successfully marked for deletion.
+
+********** 2/25/2019 2:44:49 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/25/2019 2:45:08 AM **********
+
+New Interview #10 successfully added.
+
+********** 2/25/2019 2:47:31 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/25/2019 2:47:49 AM **********
+
+New Interview #11 successfully added.
+
+********** 2/25/2019 2:47:49 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Add_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 566
+
+********** 2/25/2019 2:48:40 AM **********
+
+interview delete btn clicked.
+
+********** 2/25/2019 2:48:40 AM **********
+
+Interview 10 for Goel successfully marked for deletion.
+
+********** 2/25/2019 2:48:48 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/25/2019 2:49:04 AM **********
+
+New Interview #12 successfully added.
+
+********** 2/25/2019 2:49:04 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASR_Management_System.Pages.ViewAllSubmissions.Button_Add_Interview_Click(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\ViewAllSubmissions.aspx.cs:line 566
+
+********** 2/25/2019 2:49:54 AM **********
+
+Num items = 3
+text = 'Initial' value = 'Initial'
+text = 'Follow-Up' value = 'Follow-Up'
+text = 'Reschedule' value = 'Reschedule'
+
+********** 2/25/2019 2:50:12 AM **********
+
+New Interview #13 successfully added.
+
+********** 2/25/2019 2:50:23 AM **********
+
+submission 84 to Walmart successfully marked for deletion.
+
+********** 2/25/2019 2:59:00 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: masterPgLoginValidation
+Stack Trace: 
+   at ASR_Management_System.Site1.CheckIfAdmin() in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 63
+
+********** 2/25/2019 3:04:00 AM **********
+Exception Type: System.ArgumentException
+Exception: Recruiter Name already exists.
+Source: System.Web.UI.WebControls.Button
+Stack Trace: 
+   at ASR_Management_System.Pages.Update_Records_Pgs.AddRecruiter.btnAddRecruiter_OnClick(Object sender, EventArgs e) in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Pages\Update Records Pgs\AddRecruiter.aspx.cs:line 31
+
+********** 2/25/2019 1:36:29 PM **********
+
+submission 85 to Walmart successfully marked for deletion.
+
+********** 2/25/2019 1:37:31 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: masterPgLoginValidation
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASR_Management_System.Site1.CheckIfAdmin() in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 65
+
+********** 2/25/2019 1:39:01 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: masterPgLoginValidation
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASR_Management_System.Site1.CheckIfAdmin() in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 65
+
+********** 2/25/2019 1:57:07 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: masterPgLoginValidation
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASR_Management_System.Site1.CheckIfAdmin() in C:\Users\joshh\source\repos\ASR Management System\ASR Management System\Site1.Master.cs:line 65
+
+********** 3/1/2019 2:00:54 AM **********
+
+cookie tests failed. cookie null = True
+
+********** 3/1/2019 2:01:20 AM **********
+
+cookie tests failed. cookie null = True
+
+********** 3/1/2019 2:01:23 AM **********
+
+cookie tests failed. cookie null = True
+
+********** 3/1/2019 2:02:12 AM **********
+
+cookie tests failed. cookie null = True
+
